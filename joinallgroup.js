@@ -14,7 +14,7 @@
 function JoinProfilesGroups() {
     let steamID = g_rgProfileData?.steamid || "";
     let sessionID = g_sessionID || "";
-
+ 
     if (!steamID || !sessionID) {
         console.log("Could not retrieve steamID or sessionID.");
         return;
